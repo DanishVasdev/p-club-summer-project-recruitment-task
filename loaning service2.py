@@ -41,7 +41,8 @@ print("""        Welcome to Loaning services\n
         su -Sign up\n
         h -check history\n
         l -lend\n
-        b -borrow""")       
+        b -borrow\n
+        exit -exit service portal""")       
 inpt=" "
 
 bank=Bank() # bank object that will track all transactions and members
